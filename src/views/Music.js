@@ -5,7 +5,7 @@ function Music() {
       <div>
         <MyNav/>
         <div>
-          <p>Music</p>
+            {[...Array(10)].map((e, i) => <p key={i}>Lorem Ipsum</p>) }
         </div>
       </div>
   );

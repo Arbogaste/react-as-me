@@ -34,7 +34,7 @@ div {
     rgba(255, 255, 255, 0)
   );
   content: "";
-  height: 0.125em;
+  height: 0.12em;
   left: 40%;
   /* margin-top: calc(0.125em / 2 * -1); */
   position: absolute;

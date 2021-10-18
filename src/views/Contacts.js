@@ -5,7 +5,7 @@ function Contacts() {
       <div>
         <MyNav/>
         <div>
-          <p>Contacts</p>
+        {[...Array(10)].map((e, i) => <p key={i}>Lorem Ipsum</p>) }
         </div>
       </div>
   );

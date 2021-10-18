@@ -5,7 +5,7 @@ function Dev() {
       <div>
         <MyNav/>
         <div>
-          <p>Dev</p>
+        {[...Array(10)].map((e, i) => <p key={i}>Lorem Ipsum</p>) }
         </div>
       </div>
   );
