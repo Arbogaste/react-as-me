@@ -1,3 +1,4 @@
+import MyFooter from '../components/MyFooter';
 import MyNav from '../components/MyNav';
 
 function Home() {
@@ -9,6 +10,7 @@ function Home() {
           <p class="strikeout">experimental webapp</p>
           <p>professional portfolio</p>
         </div>
+        <MyFooter/>
       </div>
   );
 }
