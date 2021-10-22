@@ -7,7 +7,7 @@ function Home() {
         <MyNav/>
         <div>
           <p>This is my</p>
-          <p class="strikeout">experimental webapp</p>
+          <p className="strikeout">experimental webapp</p>
           <p>professional portfolio</p>
         </div>
         <MyFooter/>

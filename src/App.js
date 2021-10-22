@@ -5,7 +5,6 @@ import Contacts from "./views/Contacts";
 import Music from "./views/Music";
 import Photography from "./views/Photography";
 
-
 function App() {
   return (
     <div>
