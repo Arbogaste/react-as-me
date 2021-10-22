@@ -1,7 +1,7 @@
 import MyNav from '../components/MyNav';
 import MyFooter from '../components/MyFooter';
 import React, { useState } from "react";
-
+import "../styles/photography.css";
 function Photography() {
   const myId = "135184744@N03";
   const [rssUrl, setRssUrl] = useState(myId);
@@ -40,9 +40,9 @@ function Photography() {
       </form>
       {entries.map((entry, index) => {
         return (
-          <div key={index}>
+          <div className="card" key={index}>
             <h1>{entry.title}</h1>
-            <img src={entry.link}/>
+            <img src={entry.link} style={{width:"100%", height:"auto"}}/>
           </div>
         );
       })}
