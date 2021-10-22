@@ -1,7 +1,7 @@
 ## This is my public portfolio. 
 The purpose of the Web App is creating a semi-professional full app in ReactJS and deploy it on a AWS Server. 
-All future features will be documentated as possible, the aim is to re-use many part of this project in other services.
-The contents of the website are about my professional life, my hobbies and point of views.    
+All future features will be documentated as possible, the aim is to re-use many parts of this project in other services.
+The contents of the website are about my professional life, my hobbies and my point of views.    
 
 
 # Getting Started with Create React App
