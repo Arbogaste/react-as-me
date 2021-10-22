@@ -42,6 +42,34 @@ function Photography() {
         return (
           <div className="card" key={index}>
             <h1>{entry.title}</h1>
+            <img src={entry.link} style={{width:"60%"}}/>
+          </div>
+        );
+      })}
+    <div>
+    <MyFooter/>
+    </div>
+    </div>
+
+
+  );  
+}
+
+/**
+ *   <div className="Photography">
+      <div><MyNav/></div>
+      <form onSubmit={getRss}>
+        <div>
+          <label>Load your photos from Flickr</label>
+          <br />
+          <input onChange={(e) => setRssUrl(e.target.value)} value={rssUrl} />
+        </div>
+        <input type="submit" />
+      </form>
+      {entries.map((entry, index) => {
+        return (
+          <div className="card" key={index}>
+            <h1>{entry.title}</h1>
             <img src={entry.link} style={{width:"100%", height:"auto"}}/>
           </div>
         );
@@ -50,7 +78,7 @@ function Photography() {
     <MyFooter/>
     </div>
     </div>
-  );  
-}
-
+ * 
+ * 
+*/
 export default Photography;

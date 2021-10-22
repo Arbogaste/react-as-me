@@ -3,7 +3,7 @@
 nav {
   display: grid;
   justify-items: center;
-  max-width: 960px;
+  max-width: 720px;
   mask-image: linear-gradient(
     90deg,
     rgba(255, 255, 255, 0) 0%,
@@ -12,7 +12,7 @@ nav {
     rgba(255, 255, 255, 0) 100%
   );
   margin: 0 auto;
-  padding: 60px 0;
+  padding: 20px 0;
 }
 
 nav ul {
@@ -33,21 +33,21 @@ nav ul li {
 }
 
 nav ul li a {
-  padding: 18px;
+  padding: 16px;
   font-family: "Open Sans";
   text-transform: uppercase;
   color: rgba(1, 19, 65, 0.767);
-  font-size: 18px;
+  font-size: 16px;
   text-decoration: none;
   display: block;
 }
 
 nav ul li h2 {
-  padding: 18px;
+  padding: 16px;
   font-family: "Open Sans";
   text-transform: uppercase;
   color: rgba(4, 16, 47, 0.863);
-  font-size: 18px;
+  font-size: 16px;
   text-decoration: none;
   display: block;
 }
